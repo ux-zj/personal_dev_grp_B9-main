@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    /*background: #E5E5E5;*/
+    font-family: Inter;
+}
+
+.avatar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C4C4C4;
+    border-radius: 15px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 4px solid #898989;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.pill {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: #D05050;
+    border: 3px solid #AA3B3B;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.avatar_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 90px;
+    height: 81px;
+}
+
+.avatar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: right top;
+    border-radius: 15px !important
+}
+
+.pill_text {
+    margin: auto;
+    width: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.135em;
+    color: #FFFFFF;
+}
+
+.pill-container {
+    background: #C4C4C4;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.tournament-title {
+    height: 100%;
+    max-height: 90px;
+    margin-top: 15px;
+}
+
+.tournament-title h6 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #2C2C2C;
+}
+
+.tournament-title h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.pill-container .card-body h6 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A1A1A;
+}
+
+.pill-container .card-body h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2C2C2C;
+}
+
+.scroller .text {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.leaderboard-btn {
+    background: #363636;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.tournament-container {
+    width: 18rem;
+    height:480px;
+    min-width: 215px;
+    border-radius: 15px !important;
+}
+
+.card_image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px !important
+}
+
+.tournament-indicator-container{
+    margin-bottom: 1rem;
+}
+
+.tournament-type-indicator {
+    border: 3px solid rgba(65, 65, 65, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.tournament-winner {
+    padding: 1rem;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    /* top: 50%; */
+    bottom: 40%;
+}
+
+.tournament-winner h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+.tournament-activity-title h2 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.tournament-activity-title h4 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.tournament-card-info{
+    padding: 1rem;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    /* top: 65.43%; */
+    bottom: 0%;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(60, 60, 60, 0) 0%, #1A1A1A 100%);
+    border-radius: 15px;
+}
+
+.tournament-card-info h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    text-align: left;
+}
+
+.tournament-card-info h6 {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.card-grad {
+    background: linear-gradient(180deg, rgba(60, 60, 60, 0) 0%, #1A1A1A 100%);
+}
+
+.tournament-wrapper{
+    overflow-x: scroll;
+    display: flex;
+}
+
+.stage_card {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px !important;
+    max-height: 160px;
+    opacity: 0.2;
+    object-position: top;
+}
+
+.stage_info {
+    background: linear-gradient(0deg, rgba(60, 60, 60, 0) 0%, #1A1A1A 100%);
+    border-radius: 15px;
+}
+
+.participant_list h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.participant_list a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #242424;
+}
