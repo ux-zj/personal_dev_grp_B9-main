@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a5e8e2f662.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="row g-0 border rounded bg-light overflow-hidden flex-md-row mb-4 shadow-sm h-md-250" style="border-radius: 15px !important;"> 
+        <div class="col p-4 d-flex flex-column position-static">
+            <form action="createTournament.php" method="post">
+                <div class="form-group">
+                    <label for="Title">Title</label>
+                    <input type="text" class="form-control" id="Title" placeholder="Tournament Title">
+                </div>
+                <div class="form-group mt-4">
+                    <label for="dateScheduled">Date Scheduled</label>
+                    <input type="Date" class="form-control" id="dateScheduled" placeholder="Date scheduled">
+                </div>
+                <div class="form-group mt-4">
+                    <label for="avatarUpload">Upload Tournament Avatar</label>
+                    <input type="file" class="form-control" id="avatarUpload" placeholder="avatar">
+                </div>
+                <input type="hidden" id="u_id" name="u_id" value="<?php echo $u_id;?>">
+                <button type="submit" class="btn btn-primary mt-4">Create Tournament</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
